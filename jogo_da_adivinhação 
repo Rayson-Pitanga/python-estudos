@@ -1,0 +1,10 @@
+from random import randint
+r = randint(0,5)
+print('~'*50)
+print('Vou pensar em um número de 0 a 5. tente acertar!')
+print('~'*50)
+j = int(input('Escreva um número de 0 a 5: '))
+if r == j:
+	print('Parabéns, você acertou!')
+else:
+	print('Você errou,o número era {}'.format(r))
