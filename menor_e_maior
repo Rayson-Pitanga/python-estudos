@@ -1,0 +1,18 @@
+a = int(input('Escreva um número:'))
+b = int(input('Escreva outro número:'))
+c = int(input('Escreva outro número de novo:'))
+#verificando o menor numero
+me = a
+if b<a and b<c:
+	me = b
+if c<a and c<b:
+	me = c
+#verificando o maior numero
+ma=b
+if a>b and a>c:
+	ma = a
+if c>b and c>a:
+	ma = c
+
+print('O menor número e {}'.format(me))
+print('O maior núemero e {}'.format(ma))
