@@ -1,0 +1,22 @@
+from time import sleep 
+print('Você estar em uma rodivia dirigindo seu carro tranquilamente .')
+sleep(6)
+print('Quando do nada ver um policial.')
+sleep(3)
+print('Sabendo que a via tem limiqte de velocidade de 80km/h.')
+sleep(6)
+print('Escolha uma das opições abaixo')
+sleep(2)
+print('A)Você esta andando abaixo do limite de velocidade.')
+sleep(4)
+print('B)Você esta andando acima do limite de velocidade.')
+sleep(4)
+escolha = str(input('qual e sua escolha?')).upper()
+if escolha == 'A':
+	print('nada acontece')
+if escolha == 'B':
+	ve = int(input('qual e seu velocidade?'))
+if ve >= 81:
+	print('Você levou uma multa de R${}'.format(ve*7))
+else:
+	print('Você está ando abaixo do limete. Você e idiota?')
