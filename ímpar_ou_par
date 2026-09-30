@@ -1,0 +1,6 @@
+n = int(input('me diga qualquer numero:'))
+r = n%2
+if r == 0:
+	print('o número {} e par'.format(n))
+else:
+	print('o número {} e ímpar'.format(n))
